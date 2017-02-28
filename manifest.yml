@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 2
+  domain: mybluemix.net
+  name: pruebaMobileFirstOCC
+  host: pruebaMobileFirstOCC
+  disk_quota: 1024M
+  services:
+  - pruebaMobileFirstOCC-AdvancedMobileAccess
+  - pruebaMobileFirstOCC-imfpush
+  - pruebaMobileFirstOCC-cloudantNoSQLDB
