@@ -1,0 +1,25 @@
+{
+    "Params": {
+        "DevMode": {
+            "Instrumentation": {
+                "command": "",
+                "env": {
+                    "BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+                    "NODE_ENV": "development"
+                },
+                "memory": "384M"
+            },
+            "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+        },
+        "Name": "pruebaMobileFirstOCC",
+        "Target": {
+            "Org": "6eff0a47-90d5-4f0c-b122-9b286d8e95ae",
+            "Space": "8e9fd2df-d209-4697-9e73-9e2b6c358003",
+            "Url": "https://api.ng.bluemix.net"
+        },
+        "Timeout": 60
+    },
+    "Path": "",
+    "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+    "Type": "Cloud Foundry"
+}
